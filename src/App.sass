@@ -19,13 +19,17 @@ $font-kumbh-sans: 'Kumbh Sans', sans-serif // - Weights: 400, 700
     box-sizing: border-box
 
 body
-    background: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-top.svg')
-    background-color: $dark-cyan
-    font-family: $font-kumbh-sans
-    min-height: 100vh
     display: flex
     align-items: center
-    justify-content: center
+    justify-content: center 
+    background-color: $dark-cyan
+    font-family: $font-kumbh-sans
+    min-height: 100vh  
+    background: url('/images/bg-pattern-top.svg'), url('/images/bg-pattern-top.svg')    
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -652px left -326px, bottom -652px right -326px;
+    
+   
 img
     max-width: 100%
 
